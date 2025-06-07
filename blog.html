@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMA Visa Consultants Blog | UK Immigration Updates</title>
+    <meta name="description" content="Stay updated with the latest UK immigration news, visa rule changes, and expert guidance from ALMA Visa Consultants.">
+    <meta name="keywords" content="UK visa blog, UK immigration updates, visa rule changes, UK visa news, immigration white paper">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64x64.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="favicon-128x128.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://almaukvisas.co.uk/blog.html">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="ALMA Visa Consultants Blog | UK Immigration Updates">
+    <meta property="og:description" content="Stay updated with the latest UK immigration news, visa rule changes, and expert guidance from ALMA Visa Consultants.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://almaukvisas.co.uk/blog.html">
+    <meta property="og:image" content="https://almaukvisas.co.uk/images/alma_logo_new.png">
+    <meta property="og:site_name" content="ALMA Visa Consultants">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ALMA Visa Consultants Blog | UK Immigration Updates">
+    <meta name="twitter:description" content="Stay updated with the latest UK immigration news, visa rule changes, and expert guidance from ALMA Visa Consultants.">
+    <meta name="twitter:image" content="https://almaukvisas.co.uk/images/alma_logo_new.png">
+    
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #0056b3;
+        }
+        
+        /* Container */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 20px 0;
+            transition: padding 0.3s;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 60px;
+            margin-right: 10px;
+        }
+        
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .logo-text h1 {
+            color: #1a365d;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        
+        .logo-text span {
+            color: #4299e1;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Navigation */
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+        }
+        
+        nav ul li a {
+            color: #1a365d;
+            font-weight: 600;
+            transition: color 0.3s;
+            position: relative;
+        }
+        
+        nav ul li a:hover {
+            color: #4299e1;
+        }
+        
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: #4299e1;
+            bottom: -5px;
+            left: 0;
+            transition: width 0.3s;
+        }
+        
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: #1a365d;
+        }
+        
+        /* Blog Header */
+        .blog-header {
+            background: linear-gradient(135deg, #2980b9 0%, #1a365d 100%);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .blog-header h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .blog-header p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Blog Posts Grid */
+        .blog-posts {
+            padding: 60px 0;
+        }
+        
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .post-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .post-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .post-image {
+            height: 200px;
+            background-color: #4299e1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        .post-content {
+            padding: 25px;
+        }
+        
+        .post-date {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+        
+        .post-title {
+            font-size: 22px;
+            color: #1a365d;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        
+        .post-excerpt {
+            color: #4a5568;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .read-more {
+            display: inline-block;
+            color: #4299e1;
+            font-weight: 600;
+            position: relative;
+            transition: color 0.3s;
+        }
+        
+        .read-more::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: #4299e1;
+            bottom: -3px;
+            left: 0;
+            transition: width 0.3s;
+        }
+        
+        .read-more:hover {
+            color: #2b6cb0;
+        }
+        
+        .read-more:hover::after {
+            width: 100%;
+        }
+        
+        /* CTA Section */
+        .blog-cta {
+            background-color: #ebf8ff;
+            border-radius: 8px;
+            padding: 40px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .blog-cta h3 {
+            color: #1a365d;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        
+        .blog-cta p {
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #4299e1;
+            color: #fff;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background-color 0.3s, transform 0.3s;
+            border: 2px solid #4299e1;
+        }
+        
+        .btn:hover {
+            background-color: #2b6cb0;
+            border-color: #2b6cb0;
+            transform: translateY(-2px);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a365d;
+            color: #fff;
+            padding: 50px 0 20px;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-logo {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .footer-logo img {
+            height: 60px;
+            margin-bottom: 15px;
+        }
+        
+        .footer-logo p {
+            color: #cbd5e0;
+            line-height: 1.7;
+        }
+        
+        .footer-links {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .footer-links h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #4299e1;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+        }
+        
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links ul li a {
+            color: #cbd5e0;
+            transition: color 0.3s;
+        }
+        
+        .footer-links ul li a:hover {
+            color: #4299e1;
+        }
+        
+        .footer-contact {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .footer-contact h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #4299e1;
+        }
+        
+        .footer-contact p {
+            color: #cbd5e0;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .footer-contact p i {
+            margin-right: 10px;
+            color: #4299e1;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(203, 213, 224, 0.2);
+        }
+        
+        .footer-bottom p {
+            color: #cbd5e0;
+            font-size: 14px;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav {
+                margin-top: 20px;
+            }
+            
+            nav ul {
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 0 15px;
+            }
+            
+            .blog-header h2 {
+                font-size: 30px;
+            }
+            
+            .posts-grid {
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav {
+                display: none;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            nav.active {
+                display: block;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                padding: 20px 0;
+            }
+            
+            nav ul li {
+                margin: 10px 0;
+                text-align: center;
+            }
+            
+            .header-content {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .blog-header h2 {
+                font-size: 26px;
+            }
+            
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .logo img {
+                height: 40px;
+            }
+            
+            .logo-text h1 {
+                font-size: 22px;
+            }
+            
+            .logo-text span {
+                font-size: 12px;
+            }
+            
+            .blog-header h2 {
+                font-size: 22px;
+            }
+            
+            .blog-cta {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/alma_logo_new.png" alt="ALMA Visa Consultants Logo">
+                    <div class="logo-text">
+                        <h1>ALMA</h1>
+                        <span>VISA CONSULTANTS</span>
+                    </div>
+                </div>
+                <button class="mobile-menu-btn">☰</button>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#why-choose-us">Why Choose Us</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Header -->
+    <section class="blog-header">
+        <div class="container">
+            <h2>ALMA Visa Consultants Blog</h2>
+            <p>Stay updated with the latest UK immigration news, visa rule changes, and expert guidance from our team of visa specialists.</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-grid">
+                <div class="post-card">
+                    <div class="post-image">Digital ID</div>
+                    <div class="post-content">
+                        <p class="post-date">June 7, 2025</p>
+                        <h3 class="post-title">BritCard Digital ID: What UK Visa Applicants Need to Know</h3>
+                        <p class="post-excerpt">The UK government is exploring a new mandatory digital identity system called "BritCard" that could significantly impact immigration processes. Learn about this proposed system and its potential implications for visa applicants and residents.</p>
+                        <a href="blog-britcard-digital-id.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-image">UK Immigration</div>
+                    <div class="post-content">
+                        <p class="post-date">June 7, 2025</p>
+                        <h3 class="post-title">UK Immigration White Paper 2025: Key Changes and Implications for Visa Applicants</h3>
+                        <p class="post-excerpt">On May 12, 2025, the UK Government published a significant white paper introducing substantial changes to the UK's immigration framework. Learn about the extended settlement period, higher skills threshold, and other critical changes.</p>
+                        <a href="blog-uk-immigration-white-paper-2025.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <!-- More blog posts will be added here as they are published -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <div class="container">
+        <div class="blog-cta">
+            <h3>Need Help With Your UK Visa Application?</h3>
+            <p>Our team of expert visa consultants is ready to guide you through the complex UK visa application process with our proven 100% success rate.</p>
+            <a href="index.html#contact" class="btn">Get Your Visa Consultation Today</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/alma_logo_new.png" alt="ALMA Visa Consultants Logo">
+                    <p>Your trusted partner for navigating the complex UK visa application process. With years of specialized experience and a proven track record of success, we provide comprehensive guidance to ensure your UK visa journey is smooth and stress-free.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#why-choose-us">Why Choose Us</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i>📱</i> +44 7700 900077</p>
+                    <p><i>✉️</i> info@almaukvisas.co.uk</p>
+                    <p><i>🏢</i> 123 Visa Street, London, UK</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ALMA Visa Consultants. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    document.querySelector('nav').classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
